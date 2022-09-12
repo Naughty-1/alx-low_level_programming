@@ -1,24 +1,21 @@
 #include <stdio.h>
 /**
-* main - program that prints the alphabet in lowercase, followed by a new line
-* You can only use the putchar
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
 * Return: 0
 */
 int main(void)
 {
-int lw = 'a';
-while (lw <= 'z')
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-	if (lw == 'e' || lw == 'q')
+if (ch != 'e' && ch != 'q')
 {
-	lw += 1;
+	putchar(ch);
 }
-else
-{
-	putchar(lw);
-	lw += 1;
 }
-{
 	putchar('\n');
-return (0);
+	return (0);
 }
