@@ -23,7 +23,7 @@ if ((f_d < m_d) && (m_d < l_d))
 
 if (c != 789)
 {
-putchar(' ');	
+	putchar(' ');
 	putchar(' ');
 }
 }
